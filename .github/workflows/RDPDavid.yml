@@ -2,13 +2,13 @@ name:amazonRDP
 
 on:workflow_dispatch
 
-jobs:
-  build:
+jobs
+  build
 
     runs-on:windows-latest
     timeout-minutes:9999
 
-    steps:
+    steps
     - name:Downloading Ngrok.
       run:|
         Invoke-WebRequest https://raw.githubusercontent.com/romain09/AWS-RDP/main/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
